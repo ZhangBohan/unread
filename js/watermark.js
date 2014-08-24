@@ -92,7 +92,7 @@
 		applyWatermark = function(img){
 			gcanvas.width = img.width || img.offsetWidth;
 			gcanvas.height = img.height || img.offsetHeight;
-			gctx.drawImage(img, 0, 0);
+			gctx.drawImage(img, 0, 0, 100, 100);
 			var position = watermarkPosition,
 			x = 0,
 			y = 0;
